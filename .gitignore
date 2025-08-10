@@ -1,0 +1,36 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# MLflow
+mlruns/
+mlflow/auth/users.txt
+
+# Private experiments
+experiments/private/
+models/proprietary/
+configs/api_keys.yaml
+
+# IDE
+.idea/workspace.xml
+.idea/tasks.xml
+.vscode/settings.json
+
+# Environment variables
+.env
+.env.local
+
+# System
+.DS_Store
+*.log
